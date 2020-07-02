@@ -1,6 +1,8 @@
 # Carla-Simulato-Dueling-DDQN
 
-
+<h2><b>Dueling Double Deep Q-Network (Dueling DDQN)</b></h2>
+In the dueling variant of the DQN, we incorporate an intermediate layer in the Q-Network to estimate both the state value and the state-dependent advantage function. After reformulation (see ref), it turns out we can express the estimated Q-Value as the state value, to which we add the advantage estimate and subtract its mean. This factorization of state-independent and state-dependent values helps disentangling learning across actions and yields better results.
+<br>
 Trained a model to overtake front vehicle in carla environment taking image as input. 
 State is formed by stacking last 4 images.
 
