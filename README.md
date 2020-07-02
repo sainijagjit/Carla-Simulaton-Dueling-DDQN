@@ -8,7 +8,7 @@ State is formed by stacking last 4 images.
 <br>
 [![Watch the video](https://github.com/sainijagjit/Carla-Simulaton-Dueling-DDQN/blob/master/Screenshot%20from%202020-07-02%2020-07-33.png)](https://drive.google.com/file/d/1q-IK11GlPLRgP1JlCBtKgLT0Z2U96_GB/view?usp=sharing)
 
-<h1><b>Requirements</b></h1><br>
+<h2><b>Requirements</b></h2><br>
 The follow packages are required, you can install them with pip3 install [package]
 opencv-python<br>
 gym<br>
